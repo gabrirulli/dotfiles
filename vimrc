@@ -1,4 +1,4 @@
-set shell=/bin/bash
+set shell=/bin/zsh
 runtime macros/matchit.vim
 
 set ttyfast
@@ -265,3 +265,5 @@ autocmd BufWinEnter *.* silent loadview
 " Vim I18n
 vmap <Leader>z :call I18nTranslateString()<CR>
 vmap <Leader>dt :call I18nDisplayTranslation()<CR>
+
+set number
