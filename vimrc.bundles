@@ -1,8 +1,8 @@
 set nocompatible
 
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
@@ -55,6 +55,7 @@ Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/neosnippet'
 Plugin 'Shougo/neosnippet-snippets'
 Plugin 'fatih/vim-go'
+Plugin 'mattn/emmet-vim'
 
 " Restore cursor position and folding
 Bundle 'vim-scripts/restore_view.vim'
@@ -68,9 +69,6 @@ Bundle 'slim-template/vim-slim.git'
 " Vim Rspec
 Bundle "thoughtbot/vim-rspec"
 
-" Vim I18n
-Bundle "rentziass/vim-i18n"
-
 " Vim easy align
 Bundle "junegunn/vim-easy-align"
 
@@ -80,4 +78,6 @@ Bundle "Yggdroot/indentLine"
 " Colorscheme
 Plugin 'git@github.com:fugalh/desert.vim.git'
 
-filetype on
+call vundle#end()
+
+filetype plugin indent on

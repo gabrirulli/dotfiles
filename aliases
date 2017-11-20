@@ -45,6 +45,11 @@ alias gi="gem install"
 # Rails
 alias rk="rake"
 alias rc="bin/rails c"
+alias rdbc="rails db:create"
+alias rdbm="rails db:migrate"
+alias rdbd="rails db:drop"
+alias rdcm="rails db:drop; rails db:create; rails db:migrate"
+alias rdbr="rails db:rollback"
 
 # Config Files
 alias vimrc="vim ~/.vimrc"
@@ -72,7 +77,7 @@ alias restore_camera="sudo killall VDCAssistant"
 # Rails 5
 alias r="rails"
 alias rg="rails g"
-alias rs="puma"
+alias rs="rails s"
 alias rdbm="rails db:migrate"
 alias rdbmt="rails db:migrate RAILS_ENV=test"
 alias rdbma="rdbm && rdbmt"

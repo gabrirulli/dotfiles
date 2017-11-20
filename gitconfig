@@ -30,14 +30,14 @@
 [include]
   path = .gitconfig.local
 [commit]
-  template = /Users/francescorenzi/.gitmessage
+  template = /home/grulli/.gitmessage
 [user]
-  name = Francesco Renzi
-  email = rentziass@gmail.com
+  name = Gabriele Rulli
+  email = rulligabri.95@gmail.com
 [github]
-  user = rentziass
+  user = gabrirulli
 [credential]
-	helper = osxkeychain
+	helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

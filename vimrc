@@ -469,3 +469,6 @@ map <leader>ss :setlocal spell!<cr>
 
 " Automatically build Go files on save
 :autocmd BufWritePost *.go :GoBuild
+
+" No highlits
+map <leader>n :nohl<cr>

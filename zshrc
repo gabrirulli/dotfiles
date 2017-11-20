@@ -54,6 +54,7 @@ export PATH=".git/safe/../../bin:$PATH"
 
 # env vars
 source ~/.env
+source ~/.envs/env
 
 # functions
 for function in $MY_DOTFILES_PATH/zsh/functions/*; do
